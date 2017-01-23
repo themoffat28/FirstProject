@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C9DA549E1E3660B30093D3D4 /* FirstRunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9DA549D1E3660B30093D3D4 /* FirstRunner.cpp */; };
+		C9DA54A01E3661B50093D3D4 /* FirstController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9DA549F1E3661B50093D3D4 /* FirstController.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		C9DA54911E365A4D0093D3D4 /* FirstProject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FirstProject; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DA549D1E3660B30093D3D4 /* FirstRunner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FirstRunner.cpp; path = Controller/FirstRunner.cpp; sourceTree = "<group>"; };
+		C9DA549F1E3661B50093D3D4 /* FirstController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FirstController.cpp; path = Controller/FirstController.cpp; sourceTree = "<group>"; };
+		C9DA54A11E36645F0093D3D4 /* FirstController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirstController.h; path = Controller/FirstController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				C9DA549D1E3660B30093D3D4 /* FirstRunner.cpp */,
+				C9DA549F1E3661B50093D3D4 /* FirstController.cpp */,
+				C9DA54A11E36645F0093D3D4 /* FirstController.h */,
 			);
 			path = FirstProject;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9DA54A01E3661B50093D3D4 /* FirstController.cpp in Sources */,
 				C9DA549E1E3660B30093D3D4 /* FirstRunner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
